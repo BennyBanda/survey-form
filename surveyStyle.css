@@ -9,7 +9,7 @@
 /* main form style */
 .registration_form{
     width: 350px;
-    margin: 8% auto 0;
+    margin: 3% auto 0;
     padding: 20px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.9);
     border-radius: 10px;
@@ -34,8 +34,8 @@ h3{
     padding: 6px;
     width: 45%;
     margin: 4px;
-    border: 2px solid black;
-    border-radius: 6px;
+    border: 2px solid rgb(210, 210, 212);
+    border-radius: 3px;
 }
 
 
@@ -49,15 +49,39 @@ h3{
 }
 
 
+/* main body */
 .Msection{
     margin-top: 12px;
     text-align: left;
 }
 
-
+/* main inputs for main body */
 .Msectionclass{
     width: 93%;
     padding: 8px;
     margin: 6px;
     margin-top: 12px;
+    border-radius: 3px;
+    border: 2px solid rgb(210, 210, 212);
+}
+
+
+.myCheckbox{
+    margin-top: 12px;
+}
+
+.myCheck{
+    margin: 4px;
+}
+
+
+.btn_register{
+    padding: 6px;
+    width: 95%;
+    margin-top: 12px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(37, 219, 149);
+    color: white;
+    cursor: pointer;
 }

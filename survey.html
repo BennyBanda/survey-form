@@ -13,30 +13,32 @@
             <div class="registration_form">
             <h3>REGISTRATION FORM</h3>
             <div class="Fnames">
-                <input type="input" class="fnameclass" placeholder="First Name">
-                <input type="input" class="fnameclass" placeholder="Last Name">
+                <input type="input" class="fnameclass" placeholder="First Name" required>
+                <input type="input" class="fnameclass" placeholder="Last Name" required>
             </div>
             
             <!-----------password section-------------->
             
             <div class="radiostyle">
-            <input type="radio" class="radiosf"  value="Male"> Male
-            <input type="radio" class="radiosf" value="Female"> Female
+            <input type="radio" class="radiosf"  value="Male" required> Male
+            <input type="radio" class="radiosf" value="Female" required> Female
             </div>
 
                 <div class="Msection">
-                <input type="input" class="Msectionclass" placeholder="Age">
-                <input type="input" class="Msectionclass" placeholder="abc@gmail.com">
-                <input type="input" class="Msectionclass" placeholder="Physical Address">
+                <input type="input" class="Msectionclass" placeholder="Age" required>
+                <input type="input" class="Msectionclass" placeholder="abc@gmail.com" required>
+                <input type="input" class="Msectionclass" placeholder="Physical Address" required>
                 <input type="input" class="Msectionclass" placeholder="Select Your Country">
 
                 <!-----------password section-------------->
-                <input type="input" class="Msectionclass" placeholder="Password">
-                <input type="input" class="Msectionclass" placeholder="Re-type Password">
+                <input type="input" class="Msectionclass" placeholder="Password" required>
+                <input type="input" class="Msectionclass" placeholder="Re-type Password" required>
 
-                <!-----------radio button section-------------->
-                <input type="radio" value="Male"> I agree with the terms and conditions
-                <input type="radio" value="Male"> Send me notifications
+                <!-----------check button section-------------->
+                <div class="myCheckbox">
+                <input type="checkbox" class="myCheck" required> I agree with the terms and conditions
+                
+                </div>
 
                 <!-----------radio button section-------------->
                 <button class="btn_register">Register</button>
