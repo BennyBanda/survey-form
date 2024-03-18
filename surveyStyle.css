@@ -5,27 +5,59 @@
     font-family: arial;
 }
 
+
+/* main form style */
 .registration_form{
-    width: 520px;
+    width: 350px;
     margin: 8% auto 0;
     padding: 20px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.9);
     border-radius: 10px;
 }
 
+
+/* style for head */
 h3{
     text-align: center;
     margin-top: 10px;
 }
 
 .Fnames{
-    margin-top: 8px;
-    display: inline-block;
-    text-align: center;
-    justify-content: space-between;
+    margin-top: 12px;
+    text-align: left;
 }
 
+
+
+/* name field sytle */
 .fnameclass{
     padding: 6px;
-    width: 50%;
+    width: 45%;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+
+/* radio field sytle */
+.radiostyle{
+    margin-top: 12px;
+}
+
+.radiosf{
+    margin: 4px;
+}
+
+
+.Msection{
+    margin-top: 12px;
+    text-align: left;
+}
+
+
+.Msectionclass{
+    width: 93%;
+    padding: 8px;
+    margin: 6px;
+    margin-top: 12px;
 }
